@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav" id="nav">
   <div class="navWrapper">
     <img src="./assets/pictures/family.ico" alt="Family Icon">
     <div class="right">

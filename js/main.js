@@ -1,9 +1,24 @@
-// Navigation Bar
+$(document).ready(() => {
 
-$(function(){
-  $("#header").load("./files/header.php");
-});
+  // Navigation Bar
 
-$(function(){
-  $("#nav").load("./files/nav.php");
+  $(function(){
+    $("#header").load("./files/header.php");
+  });
+
+  $(function(){
+    $("#nav").load("./files/nav.php");
+  });
+
+  // Sticky nav bar
+
+  var num = 0; //number of pixels before modifying styles
+
+  $(window).bind('scroll', function () {
+      if ($(window).scrollTop() > num) {
+          $('.nav').addClass('sticky');
+      } else {
+          $('.nav').removeClass('sticky');
+      }
+  });
 });

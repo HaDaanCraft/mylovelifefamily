@@ -1,4 +1,3 @@
-<div class="nav">
   <div class="navWrapper">
     <img src="./assets/pictures/family.ico" alt="Family Icon">
     <div class="right">
@@ -9,4 +8,3 @@
       <a href="recipes.php" id="recipes">Gerechten</a>
     </div>
   </div>
-</div>
