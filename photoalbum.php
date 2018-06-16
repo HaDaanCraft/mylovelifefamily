@@ -5,7 +5,7 @@
     <title>MyLoveLifeFamily</title>
     <link rel="icon" href="./assets/pictures/family.ico">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/main.js"></script>
     <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
