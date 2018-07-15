@@ -5,13 +5,29 @@
     <title>MyLoveLifeFamily</title>
     <link rel="icon" href="./assets/pictures/family.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
 
-    <div class="header" id="header">
+    <div class="header">
+      <div class="nav">
+        <div class="navWrapper">
+          <img src="./assets/pictures/family.ico" alt="Family Icon">
+          <div class="right">
+            <a href="index.php" id="homepage">Thuispagina</a>
+            <a href="calendar.php" id="calendar">Kalender</a>
+            <a href="photoalbum.php" id="photoalbum">Foto album</a>
+            <a href="lists.php" id="lists">Lijstjes</a>
+            <a href="recipes.php" id="recipes">Gerechten</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="headerWrapper">
+        <h1>Volg ons leven op deze website!</h1>
+      </div>
+
     </div>
 
     <div class="timeline" id="timeline">
@@ -29,5 +45,6 @@
         </div>
       </div>
     </div>
+
   </body>
 </html>
