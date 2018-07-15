@@ -5,7 +5,7 @@
     <title>MyLoveLifeFamily</title>
     <link rel="icon" href="./assets/pictures/family.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
