@@ -27,7 +27,7 @@
       </div>
 
       <div class="headerWrapper">
-        <h1>Volg ons leven op deze website!</h1>
+        <h1>MyHappyFamily</h1>
       </div>
 
     </div>
