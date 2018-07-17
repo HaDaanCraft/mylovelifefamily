@@ -36,6 +36,8 @@
       <div class="timelineWrapper">
         <h3><a href="#timeline">Tijdlijn</a></h3>
         <div class="timelinegrid">
+          <p>Nieuwpoort - 2018</p>
+          <img src="./assets/pictures/nieuwpoort.jpg">
           <img src="./assets/pictures/family_pic.jpg">
           <p>Zeeland - 2018</p>
           <p>Welkom Tuur in de familie - 11/01/2018</p>
