@@ -1,5 +1,5 @@
 <?php
-include('classes/DB.php');
+include('private/DB.php');
 if(isset($_POST['namelist'])) {
   $namelist = $_POST['namelist'];
   DB::query('INSERT INTO lists VALUES (0, :name)', array(':name'=>$namelist));
