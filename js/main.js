@@ -10,7 +10,7 @@ $(document).ready(() => {
 
   // Animations
 
-  $("#fadein").addClass("animated fadeIn");
+  $("h1").addClass("animated fadeIn");
 
   // Smooth Scrolling
 

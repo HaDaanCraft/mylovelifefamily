@@ -11,5 +11,5 @@
   </div>
 </div>
 <div class="headerWrapper">
-  <h1 id="fadein">MyLoveLifeFamily!</h1>
+  <h1 class="animated fadeIn">MyLoveLifeFamily!</h1>
 </div>
