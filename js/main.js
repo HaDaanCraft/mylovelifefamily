@@ -61,8 +61,10 @@ $(document).ready(() => {
   $(window).bind('scroll', function () {
       if ($(window).scrollTop() > num) {
           $('.nav').addClass('sticky');
+          $('.headerWrapper h1').addClass('heads');
       } else {
           $('.nav').removeClass('sticky');
+          $('.headerWrapper h1').removeClass('heads');
       }
   });
 });
