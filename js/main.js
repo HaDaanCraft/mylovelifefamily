@@ -10,7 +10,7 @@ $(document).ready(() => {
 
   // Animations
 
-  $("h1").addClass("animated fadeIn");
+  $("#fadein").addClass("animated fadeIn");
 
   // Smooth Scrolling
 
@@ -68,4 +68,4 @@ $(document).ready(() => {
   });
 });
 
-}, 50000);
+}, 5000);
