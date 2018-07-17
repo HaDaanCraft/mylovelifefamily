@@ -2,8 +2,11 @@ $(document).ready(() => {
 
   // Navigation Bar
 
-  $('#header').load('files/header.php', function() {;
-  $('#nav').load('files/nav.php', function() {
+  $('#header').load('files/header.php');
+  $('#nav').load('files/nav.php');
+
+  setTimeout(function () {
+
 
   // Animations
 
@@ -64,5 +67,5 @@ $(document).ready(() => {
       }
   });
 });
-});
-});
+
+}, 5000);
