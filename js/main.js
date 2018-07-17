@@ -1,5 +1,9 @@
 $(document).ready(() => {
 
+  // Navigation Bar
+
+  $('#header').load('files/header.php', function() {;
+  $('#nav').load('files/nav.php', function() {
 
   // Animations
 
@@ -44,15 +48,7 @@ $(document).ready(() => {
     }
   });
 
-  // Navigation Bar
 
-  $(function(){
-    $("#header").load("./files/header.php");
-  });
-
-  $(function(){
-    $("#nav").load("./files/nav.php");
-  });
 
   // Sticky nav bar
 
@@ -67,4 +63,6 @@ $(document).ready(() => {
           $('.headerWrapper h1').removeClass('heads');
       }
   });
+});
+});
 });
