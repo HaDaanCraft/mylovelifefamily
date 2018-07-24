@@ -7,6 +7,11 @@ if(isset($_POST['namelist'])) {
 
 $lists = DB::query('SELECT * FROM lists ORDER BY name ASC');
 
+if(isset($_POST['deletelist'])) {
+  $listid = $_POST
+  DB::query('DELETE FROM lists WHERE id=:id', array(':id'=>$listid));
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -29,18 +34,23 @@ $lists = DB::query('SELECT * FROM lists ORDER BY name ASC');
   <div class="list">
     <div class="listWrapper">
       <h3>Lijstjes</h3>
-      <div class="listAdd">
-        <form method="post" action="lists.php">
-          <input type="text" name="namelist" value="" placeholder="Maak een lijst">
-          <input type="image" name="createlist" src="./assets/pictures/add.png" alt="Maak lijst" height="50px">
-        </form>
-      </div>
-      <div class="listView">
-        <?php
-        foreach ($lists as $list) {
-          echo '<a href=lists.php?'.$list['id'].'>'.$list['name'].'</a>'.'</br>';
-        }
-        ?>
+      <div class="listDiv">
+        <div class="listAdd">
+          <form method="post" action="lists.php">
+            <input type="text" name="namelist" value="" placeholder="Maak een lijst" id="namelist">
+            <input type="image" name="createlist" src="./assets/pictures/add.png" alt="Maak lijst" height="50px">
+          </form>
+        </div>
+        <div class="listView">
+          <?php
+          foreach ($lists as $list) {
+            echo '<a href=lists.php?'.$list['id'].'>'.$list['name'].'</a>';
+            echo '<form method="post" action="lists.php">';
+            echo '<input type="image" name="deletelist" src="./assets/pictures/delete.png" alt="Maak lijst" height="30px" id="deleteList">';
+            echo '</form>';
+          }
+          ?>
+        </div>
       </div>
     </div>
   </div>
