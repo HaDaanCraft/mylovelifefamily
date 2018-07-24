@@ -160,3 +160,47 @@ a {
   width: 1500px;
   height: 700px;
 }
+
+/* Lists */
+
+.list {
+  width: 100%;
+}
+
+.listWrapper {
+  width: 85%;
+  padding-top: 25px;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+.listWrapper h3 {
+  font-size: 40px;
+  color: #4A4A4A;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.listDiv {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+#namelist {
+  font-size: 50px;
+}
+
+.listView {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  font-size: 30px;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto;
+}
+
+#deleteList {
+  margin-left: 20px;
+}
