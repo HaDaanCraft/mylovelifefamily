@@ -179,6 +179,16 @@ a {
   color: #4A4A4A;
   letter-spacing: 2px;
   font-weight: bold;
+  display: inline;
+}
+
+.listWrapper img {
+  height: 50px;
+}
+
+.listWrapper a {
+  height: 50px;
+  margin-right: 50px;
 }
 
 .listDiv {
@@ -188,7 +198,7 @@ a {
   grid-template-rows: auto;
 }
 
-#namelist {
+#namelist, #listItem {
   font-size: 50px;
 }
 
@@ -196,9 +206,16 @@ a {
   margin-top: 20px;
   display: grid;
   justify-content: center;
-  font-size: 30px;
   grid-template-columns: auto auto;
   grid-auto-rows: auto;
+}
+
+.listView p, .listView a {
+  font-size: 30px;
+}
+
+.checked {
+  text-decoration: line-through;
 }
 
 #deleteList {

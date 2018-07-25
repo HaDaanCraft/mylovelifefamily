@@ -1,15 +1,20 @@
 <?php
 include('private/DB.php');
+
 if(isset($_POST['namelist'])) {
   $namelist = $_POST['namelist'];
   DB::query('INSERT INTO lists VALUES (0, :name)', array(':name'=>$namelist));
+  $listid = DB::query('SELECT id FROM lists WHERE name=:name', array(':name'=>$namelist))[0]['id'];
+  DB::query('CREATE TABLE mylovelifefamily.list'.$listid.' ( id INT(64) NOT NULL AUTO_INCREMENT , value VARCHAR(100) NOT NULL , checked BOOLEAN NOT NULL , PRIMARY KEY (id))');
 }
 
 $lists = DB::query('SELECT * FROM lists ORDER BY name ASC');
 
-if(isset($_POST['deletelist'])) {
-  $listid = $_POST
+if(isset($_POST['deletelist_x'])) {
+  $listid = $_GET['deleteListId'];
   DB::query('DELETE FROM lists WHERE id=:id', array(':id'=>$listid));
+  DB::query('DROP TABLE list'.$listid);
+  header("Refresh:0");
 }
 
 ?>
@@ -44,9 +49,9 @@ if(isset($_POST['deletelist'])) {
         <div class="listView">
           <?php
           foreach ($lists as $list) {
-            echo '<a href=lists.php?'.$list['id'].'>'.$list['name'].'</a>';
-            echo '<form method="post" action="lists.php">';
-            echo '<input type="image" name="deletelist" src="./assets/pictures/delete.png" alt="Maak lijst" height="30px" id="deleteList">';
+            echo '<a href=viewLists.php?id='.$list['id'].'>'.$list['name'].'</a>';
+            echo '<form method="post" action="lists.php?deleteListId='.$list['id'].'">';
+            echo '<input type="image" name="deletelist" src="./assets/pictures/delete.png" alt="Verwijder lijst" height="30px" id="deleteList">';
             echo '</form>';
           }
           ?>

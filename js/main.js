@@ -66,6 +66,9 @@ $(document).ready(() => {
           $('.headerWrapper h1').removeClass('heads');
       }
   });
+
+
+  //End File
 });
 
 }, 5000);
