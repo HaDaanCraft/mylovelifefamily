@@ -61,9 +61,11 @@ $(document).ready(() => {
       if ($(window).scrollTop() > num) {
           $('.nav').addClass('sticky');
           $('.headerWrapper h1').addClass('heads');
+          $('.list').addClass('pageMargin');
       } else {
           $('.nav').removeClass('sticky');
           $('.headerWrapper h1').removeClass('heads');
+          $('.list').removeClass('pageMargin');
       }
   });
 
