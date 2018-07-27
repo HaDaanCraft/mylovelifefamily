@@ -22,206 +22,699 @@ a {
   display: none;
 }
 
-/* Header */
+@media screen and (min-width: 1200px) {
 
-.header {
-  background-image: url(../assets/pictures/hero_bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 90vh;
-  max-width: 100%;
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    max-width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 35px;
+    padding-top: 32.5px;
+  }
+
+  .right {
+    padding-top: 32.5px;
+    float: right;
+  }
+
+  .right .menu {
+    display: none;
+  }
+
+  #homepage, #calendar, #photoalbum, #lists, #recipes {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    color: #4A4A4A;
+    text-align: center;
+    letter-spacing: 3.33px;
+  }
+
+  .navResponsive {
+    display: none;
+  }
+
+  /* Sticky nav bar */
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  .pageMargin {
+    margin-top: 100px;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 30px;
+    color: #4A4A4A;
+  }
+
+  /* Calendar */
+
+  .calendar {
+    width: 100%;
+  }
+
+  .calendarWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .calendarWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .cal {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+
+  .cal iframe {
+    padding-top: 30px;
+    border: 0;
+    width: 1500px;
+    height: 700px;
+  }
+
+  /* Lists */
+
+  .list {
+    width: 100%;
+  }
+
+  .listWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .listWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .listWrapper img {
+    height: 50px;
+  }
+
+  .listWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .listDiv {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  #namelist, #listItem {
+    font-size: 50px;
+  }
+
+  .listView {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+  }
+
+  .listView p, .listView a {
+    font-size: 30px;
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+
+  #deleteList {
+    margin-left: 20px;
+  }
+
+  #checkItem, #deleteItem {
+    margin-left: 10px;
+  }
 }
 
-.nav {
-  width: 100%;
-  height: 100px;
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    max-width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 35px;
+    padding-top: 32.5px;
+  }
+
+  .right {
+    padding-top: 32.5px;
+    float: right;
+  }
+
+  .right .menu {
+    display: none;
+  }
+
+  #homepage, #calendar, #photoalbum, #lists, #recipes {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    color: #4A4A4A;
+    text-align: center;
+    letter-spacing: 3.33px;
+  }
+
+  .navResponsive {
+    display: none;
+  }
+
+  /* Sticky nav bar */
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  .pageMargin {
+    margin-top: 100px;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 25px;
+    color: #4A4A4A;
+  }
+
+  /* Calendar */
+
+  .calendar {
+    width: 100%;
+  }
+
+  .calendarWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .calendarWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .cal {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+
+  .cal iframe {
+    padding-top: 30px;
+    border: 0;
+    width: 780px;
+    height: 550px;
+  }
+
+  /* Lists */
+
+  .list {
+    width: 100%;
+  }
+
+  .listWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .listWrapper h3 {
+    font-size: 30px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .listWrapper img {
+    height: 40px;
+  }
+
+  .listWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .listDiv {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  #namelist, #listItem {
+    font-size: 35px;
+  }
+
+  .listView {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+  }
+
+  .listView p, .listView a {
+    font-size: 30px;
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+
+  #deleteList {
+    margin-left: 20px;
+  }
+
+  #checkItem, #deleteItem {
+    margin-left: 10px;
+  }
 }
 
-.navWrapper {
-  width: 85%;
-  margin: auto;
-}
+@media screen and (min-width: 300px) and (max-width: 800px) {
 
-.navWrapper img {
-  height: 35px;
-  padding-top: 32.5px;
-}
+  /* Header */
 
-.right {
-  padding-top: 32.5px;
-  float: right;
-}
+  .header {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    max-width: 100%;
+  }
 
-#homepage, #calendar, #photoalbum, #lists, #recipes {
-  color: #000;
-  font-weight: bold;
-  font-size: 16px;
-  margin-right: 35px;
-  letter-spacing: 0.6px;
-}
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
 
-.headerWrapper {
-  padding-top: 235px;
-}
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
 
-.headerWrapper h1 {
-  font-size: 8vw;
-  font-weight: bold;
-  color: #4A4A4A;
-  text-align: center;
-  letter-spacing: 3.33px;
-}
+  .navWrapper img {
+    height: 35px;
+    padding-top: 32.5px;
+  }
 
-/* Sticky nav bar */
+  .right {
+    padding-top: 32.5px;
+    float: right;
+  }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  background-image: url(../assets/pictures/hero_bg.jpg);
-  opacity: 0.95;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  #homepage, #calendar, #photoalbum, #lists, #recipes {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+    display: none;
+  }
 
-.heads {
-  margin-top: 100px;
-}
+  .right .menu {
+    display: block;
+    height: 25px;
+  }
 
-.pageMargin {
-  margin-top: 100px;
-}
+  .headerWrapper {
+    padding-top: 235px;
+  }
 
-/* Timeline */
+  .headerWrapper h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    color: #4A4A4A;
+    text-align: center;
+    letter-spacing: 3.33px;
+  }
 
-.timeline {
-  width: 100%;
-}
+  /* Responsive Nav */
 
-.timelineWrapper {
-  width: 85%;
-  padding-top: 25px;
-  margin: auto;
-  padding-bottom: 75px;
-}
+  .open {
+    display: block;
+  }
 
-.timelineWrapper h3 {
-  font-size: 40px;
-  color: #4A4A4A;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
+  .close {
+    float: right;
+    margin: 1em 1em 0 0;
+  }
 
-.timelinegrid {
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: 500px 500px;
-  grid-auto-rows: auto auto;
-  grid-gap: 2%;
-  align-items: flex-end;
-  justify-content: center;
-}
+  .closeIcon {
+    height: 20px;
+  }
 
-.timelinegrid img {
-  width: 100%;
-}
+  .navResponsive {
+    width: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    transition: 0.5s;
+    display: block;
+  }
 
-.timelinegrid p {
-  font-size: 30px;
-  color: #4A4A4A;
-}
+  .navResponsive a {
+    clear: right;
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    padding: 1em 0;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
 
-/* Calendar */
+  .navResponsive a:not(:first-child):hover {
+    color: #B2B2B2;
+  }
 
-.calendar {
-  width: 100%;
-}
+  /* Sticky nav bar */
 
-.calendarWrapper {
-  width: 85%;
-  padding-top: 25px;
-  margin: auto;
-  padding-bottom: 0;
-}
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.calendarWrapper h3 {
-  font-size: 40px;
-  color: #4A4A4A;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
+  .heads {
+    margin-top: 100px;
+  }
 
-.cal {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto;
-}
+  .pageMargin {
+    margin-top: 100px;
+  }
 
-.cal iframe {
-  padding-top: 30px;
-  border: 0;
-  width: 1500px;
-  height: 700px;
-}
+  /* Timeline */
 
-/* Lists */
+  .timeline {
+    width: 100%;
+  }
 
-.list {
-  width: 100%;
-}
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
 
-.listWrapper {
-  width: 85%;
-  padding-top: 25px;
-  margin: auto;
-  padding-bottom: 0;
-}
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
 
-.listWrapper h3 {
-  font-size: 40px;
-  color: #4A4A4A;
-  letter-spacing: 2px;
-  font-weight: bold;
-  display: inline;
-}
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
 
-.listWrapper img {
-  height: 50px;
-}
+  .timelinegrid img {
+    width: 100%;
+  }
 
-.listWrapper a {
-  height: 50px;
-  margin-right: 50px;
-}
+  .timelinegrid p {
+    font-size: 25px;
+    color: #4A4A4A;
+  }
 
-.listDiv {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-}
+  /* Calendar */
 
-#namelist, #listItem {
-  font-size: 50px;
-}
+  .calendar {
+    width: 100%;
+  }
 
-.listView {
-  margin-top: 20px;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: auto auto;
-  grid-auto-rows: auto;
-}
+  .calendarWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
 
-.listView p, .listView a {
-  font-size: 30px;
-}
+  .calendarWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
 
-.checked {
-  text-decoration: line-through;
-}
+  .cal {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
 
-#deleteList {
-  margin-left: 20px;
+  .cal iframe {
+    padding-top: 30px;
+    border: 0;
+    width: 780px;
+    height: 550px;
+  }
+
+  /* Lists */
+
+  .list {
+    width: 100%;
+  }
+
+  .listWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .listWrapper h3 {
+    font-size: 30px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .listWrapper img {
+    height: 40px;
+  }
+
+  .listWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .listDiv {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  #namelist, #listItem {
+    font-size: 35px;
+  }
+
+  .listView {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+  }
+
+  .listView p, .listView a {
+    font-size: 30px;
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+
+  #deleteList {
+    margin-left: 20px;
+  }
+
+  #checkItem, #deleteItem {
+    margin-left: 10px;
+  }
 }

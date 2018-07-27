@@ -4,6 +4,7 @@ $(document).ready(() => {
 
   $('#header').load('files/header.php');
   $('#nav').load('files/nav.php');
+  $('#navResponsive').load('files/navresponsive.php');
 
   setTimeout(function () {
 
@@ -51,7 +52,16 @@ $(document).ready(() => {
     }
   });
 
+  // Responsive Nav
+  $(".open").click(function(){
+    $(this).css("display", "none");
+    $(".navResponsive").css("width", "100%");
+  });
 
+  $(".close").click(function(){
+    $(".navResponsive").css("width", "0");
+    $(".open").css("display", "block");
+  });
 
   // Sticky nav bar
 

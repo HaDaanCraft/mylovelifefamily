@@ -12,6 +12,9 @@
   </head>
   <body>
 
+    <div class="navResponsive" id="navResponsive">
+    </div>
+
     <div class="header" id="header">
     </div>
 
