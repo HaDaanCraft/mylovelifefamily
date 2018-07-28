@@ -22,6 +22,8 @@ a {
   display: none;
 }
 
+/* Laptops */
+
 @media screen and (min-width: 1200px) {
 
   /* Header */
@@ -241,6 +243,8 @@ a {
   }
 }
 
+
+/* iPads */
 @media screen and (min-width: 800px) and (max-width: 1200px) {
 
   /* Header */
@@ -460,6 +464,274 @@ a {
   }
 }
 
+/* Phone Portrait */
+
+@media screen and (min-width: 300px) and (max-width: 800px) and (orientation: portrait){
+
+  /* Header */
+
+  .header {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    max-width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  .navWrapper {
+    width: 85%;
+    margin: auto;
+  }
+
+  .navWrapper img {
+    height: 35px;
+    padding-top: 32.5px;
+  }
+
+  .right {
+    padding-top: 32.5px;
+    float: right;
+  }
+
+  #homepage, #calendar, #photoalbum, #lists, #recipes {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 35px;
+    letter-spacing: 0.6px;
+    display: none;
+  }
+
+  .right .menu {
+    display: block;
+    height: 25px;
+  }
+
+  .headerWrapper {
+    padding-top: 235px;
+  }
+
+  .headerWrapper h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    color: #4A4A4A;
+    text-align: center;
+    letter-spacing: 3.33px;
+  }
+
+  /* Responsive Nav */
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    float: right;
+    margin: 1em 1em 0 0;
+  }
+
+  .closeIcon {
+    height: 20px;
+  }
+
+  .navResponsive {
+    width: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+    transition: 0.5s;
+    display: block;
+  }
+
+  .navResponsive a {
+    clear: right;
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    padding: 1em 0;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+
+  .navResponsive a:not(:first-child):hover {
+    color: #B2B2B2;
+  }
+
+  /* Sticky nav bar */
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    opacity: 0.95;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .heads {
+    margin-top: 100px;
+  }
+
+  .pageMargin {
+    margin-top: 100px;
+  }
+
+  /* Timeline */
+
+  .timeline {
+    width: 100%;
+  }
+
+  .timelineWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  .timelineWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 115px;
+  }
+
+  .timelinegrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto auto;
+    grid-gap: 2%;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .timelinegrid img {
+    width: 100%;
+  }
+
+  .timelinegrid p {
+    font-size: 20px;
+    color: #4A4A4A;
+  }
+
+  /* Calendar */
+
+  .calendar {
+    width: 100%;
+  }
+
+  .calendarWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .calendarWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .cal {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+
+  .cal iframe {
+    padding-top: 30px;
+    border: 0;
+    width: 300px;
+    height: 400px;
+  }
+
+  /* Photo Album */
+
+  #nGY2GThumbnail {
+    display: hide;
+  }
+
+  /* Lists */
+
+  .list {
+    width: 100%;
+  }
+
+  .listWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .listWrapper h3 {
+    font-size: 30px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .listWrapper img {
+    height: 40px;
+  }
+
+  .listWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .listDiv {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  #namelist, #listItem {
+    font-size: 35px;
+  }
+
+  .listView {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+  }
+
+  .listView p, .listView a {
+    font-size: 30px;
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+
+  #deleteList {
+    margin-left: 20px;
+  }
+
+  #checkItem, #deleteItem {
+    margin-left: 10px;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
 
   /* Header */
@@ -599,7 +871,7 @@ a {
     color: #4A4A4A;
     letter-spacing: 2px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 115px;
   }
 
   .timelinegrid {
@@ -617,7 +889,7 @@ a {
   }
 
   .timelinegrid p {
-    font-size: 25px;
+    font-size: 20px;
     color: #4A4A4A;
   }
 
@@ -650,8 +922,8 @@ a {
   .cal iframe {
     padding-top: 30px;
     border: 0;
-    width: 780px;
-    height: 550px;
+    width: 300px;
+    height: 400px;
   }
 
   /* Lists */

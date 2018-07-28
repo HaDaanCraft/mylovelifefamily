@@ -72,15 +72,17 @@ $(document).ready(() => {
           $('.nav').addClass('sticky');
           $('.headerWrapper h1').addClass('heads');
           $('.list').addClass('pageMargin');
+          $('.calendar').addClass('pageMargin');
       } else {
           $('.nav').removeClass('sticky');
           $('.headerWrapper h1').removeClass('heads');
           $('.list').removeClass('pageMargin');
+          $('.calendar').removeClass('pageMargin');
       }
   });
 
 
   //End File
-}, 5000);
+}, 1000);
 
 });

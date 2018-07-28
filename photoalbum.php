@@ -13,6 +13,9 @@
   </head>
   <body>
 
+    <div class="navResponsive" id="navResponsive">
+    </div>
+
     <div class="nav" id="nav">
     </div>
 
@@ -23,7 +26,7 @@
         "whiteList": "MyLoveLifeFamily",
         "thumbnailWidth": "200",
         "thumbnailAlignment": "center"
-      }'>
+      }' class="photo">
 
     </div>
 

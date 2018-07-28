@@ -33,6 +33,9 @@ if(isset($_POST['deletelist_x'])) {
   </head>
   <body>
 
+    <div class="navResponsive" id="navResponsive">
+    </div>
+
   <div class="nav" id="nav">
   </div>
 
