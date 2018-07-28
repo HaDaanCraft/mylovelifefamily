@@ -469,7 +469,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 80vh;
     max-width: 100%;
   }
 
@@ -599,6 +599,7 @@ a {
     color: #4A4A4A;
     letter-spacing: 2px;
     font-weight: bold;
+    margin-bottom: 50px;
   }
 
   .timelinegrid {
