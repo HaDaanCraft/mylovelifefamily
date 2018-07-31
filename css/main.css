@@ -699,12 +699,16 @@ a {
   .listDiv {
     display: grid;
     justify-content: center;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
   }
 
   #namelist, #listItem {
-    font-size: 35px;
+    font-size: 20px;
+  }
+
+  #add {
+    height: 40px;
   }
 
   .listView {
@@ -713,6 +717,8 @@ a {
     justify-content: center;
     grid-template-columns: auto auto;
     grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
   }
 
   .listView p, .listView a {
@@ -725,6 +731,7 @@ a {
 
   #deleteList {
     margin-left: 20px;
+    height: 30px;
   }
 
   #checkItem, #deleteItem {
@@ -732,7 +739,7 @@ a {
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
+@media screen and (min-width: 300px) and (max-width: 800px) and (orientation: landscape) {
 
   /* Header */
 

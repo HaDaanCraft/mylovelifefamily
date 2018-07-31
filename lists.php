@@ -46,7 +46,7 @@ if(isset($_POST['deletelist_x'])) {
         <div class="listAdd">
           <form method="post" action="lists.php">
             <input type="text" name="namelist" value="" placeholder="Maak een lijst" id="namelist">
-            <input type="image" name="createlist" src="./assets/pictures/add.png" alt="Maak lijst" height="50px">
+            <input type="image" name="createlist" src="./assets/pictures/add.png" alt="Maak lijst" height="50px" id="add">
           </form>
         </div>
         <div class="listView">
