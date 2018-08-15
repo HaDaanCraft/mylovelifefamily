@@ -56,11 +56,13 @@ $(document).ready(() => {
   $(".open").click(function(){
     $(this).css("display", "none");
     $(".navResponsive").css("width", "100%");
+    $("#my_nanogallery").attr("id", "photo");
   });
 
   $(".close").click(function(){
     $(".navResponsive").css("width", "0");
     $(".open").css("display", "block");
+    $("#photo").attr("id", "my_nanogallery");
   });
 
   // Sticky nav bar
