@@ -662,8 +662,8 @@ a {
 
   /* Photo Album */
 
-  #nGY2GThumbnail {
-    display: hide;
+  #photo {
+    display: none;
   }
 
   /* Lists */

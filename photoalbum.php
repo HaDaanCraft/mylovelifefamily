@@ -26,7 +26,7 @@
         "whiteList": "MyLoveLifeFamily",
         "thumbnailWidth": "200",
         "thumbnailAlignment": "center"
-      }' class="photo">
+      }'>
 
     </div>
 
