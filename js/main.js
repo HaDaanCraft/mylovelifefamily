@@ -1,5 +1,15 @@
 $(document).ready(() => {
 
+  // Logged In Checking
+
+  var loggedCookie = Cookies.get('loggedInUserType');
+  if (loggedCookie == null && $(location).attr('pathname') != '/login.php') {
+    localStorage.link = $(location).attr('pathname');
+    $(location).attr('href', 'login.php');
+  } else if (loggedCookie != null && $(location).attr('pathname') == '/login.php') {
+    $(location).attr('href', localStorage.link);
+  }
+
   // Navigation Bar
 
   $('#header').load('files/header.php');
@@ -65,7 +75,7 @@ $(document).ready(() => {
     $("#photo").attr("id", "my_nanogallery");
   });
 
-  // Sticky nav bar
+  // Sticky Nav Bar
 
   var num = 0; //number of pixels before modifying styles
 

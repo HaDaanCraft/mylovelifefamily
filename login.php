@@ -6,11 +6,15 @@ if (isset($_POST['login'])) {
 
   if (DB::query('SELECT * FROM users WHERE pin=:pin', array(':pin'=>$pin))) {
     $userType = DB::query('SELECT userType FROM users WHERE pin=:pin', array(':pin'=>$pin))[0]['userType'];
-    setcookie("loggedInUserType", $userType, time() + 60 * 60 * 24, '/', NULL, NULL, TRUE);
+    echo '<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>';
+    echo '<script type="text/javascript">',
+     'Cookies.set("loggedInUserType", "1", { expires: 1 });',
+     '</script>';
   }
 }
 ?>
 
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -18,9 +22,11 @@ if (isset($_POST['login'])) {
     <link rel="icon" href="./assets/pictures/family.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/main.js"></script>
   </head>
+
   <body class="loginFile">
 
     <div class="nav">

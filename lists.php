@@ -28,6 +28,7 @@ if(isset($_POST['deletelist_x'])) {
     <link rel="icon" href="./assets/pictures/family.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/main.js"></script>
   </head>
