@@ -241,6 +241,41 @@ a {
   #checkItem, #deleteItem {
     margin-left: 10px;
   }
+
+  /* Login */
+  .loginFile {
+    background-image: url(../assets/pictures/hero_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .login {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .loginWrapper {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+
+  .loginWrapper h3 {
+    margin-top: 20vh;
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+
+  .loginWrapper #pin, .loginWrapper #button {
+    font-size: 50px;
+  }
+
+  .loginWrapper #button {
+    margin-top: 10px;
+    background-color: Transparent;
+  }
+
 }
 
 
