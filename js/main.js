@@ -3,10 +3,10 @@ $(document).ready(() => {
   // Logged In Checking
 
   var loggedCookie = Cookies.get('loggedInUserType');
-  if (loggedCookie == null && $(location).attr('pathname') != '/login.php') {
+  if (loggedCookie == null && $(location).attr('pathname') != '/mylovelifefamily/login.php') {
     localStorage.link = $(location).attr('pathname');
     $(location).attr('href', 'login.php');
-  } else if (loggedCookie != null && $(location).attr('pathname') == '/login.php') {
+  } else if (loggedCookie != null && $(location).attr('pathname') == '/mylovelifefamily/login.php') {
     $(location).attr('href', localStorage.link);
   }
 
