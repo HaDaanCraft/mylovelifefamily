@@ -85,11 +85,13 @@ $(document).ready(() => {
           $('.headerWrapper h1').addClass('heads');
           $('.list').addClass('pageMargin');
           $('.calendar').addClass('pageMargin');
+          $('.recipes').addClass('pageMargin');
       } else {
           $('.nav').removeClass('sticky');
           $('.headerWrapper h1').removeClass('heads');
           $('.list').removeClass('pageMargin');
           $('.calendar').removeClass('pageMargin');
+          $('.recipes').removeClass('pageMargin');
       }
   });
 

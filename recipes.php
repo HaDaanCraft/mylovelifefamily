@@ -1,3 +1,9 @@
+<?php
+include('private/DB.php');
+
+$recipes = DB::query('SELECT * FROM recipes');
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,28 +27,19 @@
     <div class="recipes">
       <div class="recipesWrapper">
         <h3>Gerechten</h3>
-        <div class="recipeDiv">
-          <div class="recipe">
-            <img src="./assets/pictures/recipes/recipe1.jpg" />
-            <hr />
-            <p class="text"><underline>Ingrediënten</underline></p>
-            <ul class="left">
-              <li>1 Aubergine</li>
-              <li>1 Courgette</li>
-              <li>1 Rode paprika</li>
-              <li>1 Ui</li>
-              <li>1 Teen knoflook</li>
-            </ul>
-            <ul class="right">
-              <li>2 dl Tomatensaus</li>
-              <li>4 Stukken zeeduivel</li>
-              <li>4 Eetlepels olijfolie</li>
-              <li>Peper en zout</li>
-              <li>1 Kruidentuiltje met tijm, laurier en peterselie</li>
-            </ul>
-            <p class="text"><underline>Recept</underline></p>
-            <p class="recept"></p>
-          </div>
+        <h4><a href="addrecipe.php">Voeg gerecht toe!</a></h4>
+        <div class="recipesDiv">
+          <?php
+          foreach ($recipes as $recipe) {
+            echo "<div class='recipe'>";
+              echo "<a href='viewrecipe?id=".$recipe['id']."'>";
+              echo "<center><img src='".$recipe['photo']."'/></center>";
+              echo "<hr />";
+              echo "<p class='name'>".$recipe['name']."</p>";
+              echo "</a>";
+            echo "</div>";
+          }
+          ?>
         </div>
       </div>
     </div>

@@ -1,0 +1,11 @@
+.recipe .hltext {
+  font-size: 22px;
+  color: #427e9f;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.recipe underline {
+  border-bottom: 3px solid #427e9f;
+}
