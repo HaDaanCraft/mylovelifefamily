@@ -52,7 +52,7 @@ a {
     padding-top: 32.5px;
   }
 
-  .right {
+  .navWrapper .right {
     padding-top: 32.5px;
     float: right;
   }
@@ -274,6 +274,65 @@ a {
   .loginWrapper #button {
     margin-top: 10px;
     background-color: Transparent;
+  }
+
+  /* Recipes */
+
+  .recipes {
+    width: 100%;
+  }
+
+  .recipesWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .recipesWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .recipeDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+  }
+
+  .recipe img {
+    width: 100%;
+  }
+
+  .recipe hr {
+    border: 1px solid black;
+  }
+
+  .recipe .text {
+    font-size: 22px;
+    color: #427e9f;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .recipe underline {
+    border-bottom: 3px solid #427e9f;
+  }
+
+  .recipe .left {
+    float: left;
+    padding-left: 15px;
+  }
+
+  .recipe .right {
+    padding-left: 125px;
+  }
+
+  .recipe .left, .recipe .right {
+    font-size: 14px;
   }
 
 }
