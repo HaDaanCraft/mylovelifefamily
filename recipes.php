@@ -32,7 +32,7 @@ $recipes = DB::query('SELECT * FROM recipes');
           <?php
           foreach ($recipes as $recipe) {
             echo "<div class='recipe'>";
-              echo "<a href='viewrecipe?id=".$recipe['id']."'>";
+              echo "<a href='viewrecipe.php?id=".$recipe['id']."'>";
               echo "<center><img src='".$recipe['photo']."'/></center>";
               echo "<hr />";
               echo "<p class='name'>".$recipe['name']."</p>";
