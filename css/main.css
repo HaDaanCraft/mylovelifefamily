@@ -372,6 +372,48 @@ a {
     color: #322f2c;
   }
 
+  .recipeDiv {
+    display: grid;
+    grid-template-rows: 50% auto;
+    grid-template-areas:
+                      'photo ingredients'
+                      'recipe recipe';
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .recipeDiv .hltext {
+    font-size: 27px;
+    color: #427e9f;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  .recipeDiv underline {
+    border-bottom: 3px solid #427e9f;
+  }
+
+  .recipeDiv .photo {
+    grid-area: photo;
+  }
+
+  .recipeDiv .photo img {
+    width: 100%;
+  }
+
+  .recipeDiv .ingredients {
+    grid-area: ingredients;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .recipeDiv .preparation {
+    grid-area: recipe;
+    font-size: 20px;
+  }
+
+
 }
 
 
