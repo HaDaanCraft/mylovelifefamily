@@ -4,7 +4,9 @@ include('private/DB.php');
 if (isset($_POST['addrecipe'])) {
   $name = $_POST['name'];
   $ingredients = $_POST['ingredients'];
+  $ingredients = nl2br($ingredients);
   $recipe = $_POST['recipe'];
+  $recipe = nl2br($recipe);
 
   $photo = $_FILES['photo'];
   $filetype = $photo['type'];

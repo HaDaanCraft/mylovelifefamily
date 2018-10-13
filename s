@@ -1,30 +1,31 @@
+Zeeduivel met een ratatouille van aubergine, courgette en paprika
 - 1 aubergine
-<br />- 1 courgette
-<br />- 1 rode paprika
-<br />- 1 ui
-<br />- 1 teentje knoflook
-<br />- 2 dl tomatensaus
-<br />- 1 kruidentuiltje met tijm, laurier en peterselie
-<br />- 4 stukken zeeduivel
-<br />- 4 eetlepels olijfolie
-<br />- peper en zout
+- 1 courgette
+- 1 rode paprika
+- 1 ui
+- 1 teentje knoflook
+- 2 dl tomatensaus
+- 1 kruidentuiltje met tijm, laurier en peterselie
+- 4 stukken zeeduivel
+- 4 eetlepels olijfolie
+- peper en zout
 
 
 
-Verwijder het vel en graten van de zeeduivel.<br />
-Verhit een pan met een lepel olijfolie en bak de filets kort aan.<br />
-Kruid met wat peper.<br />
+Verwijder het vel en graten van de zeeduivel.
+Verhit een pan met een lepel olijfolie en bak de filets kort aan.
+Kruid met wat peper.
 
-Snijd de aubergine en courgette in blokjes.<br />
-Schil de paprika met een dunschiller en snijd deze ook in blokjes.<br />
-Hak de ui fijn en pers de knoflook.<br />
-Verhit de rest van de olie en bak op een hoog vuur de aubergine, courgette en paprika.<br />
-Voeg daarna voeg de ui en knoflook toe en laat kort meestoven.<br />
+Snijd de aubergine en courgette in blokjes.
+Schil de paprika met een dunschiller en snijd deze ook in blokjes.
+Hak de ui fijn en pers de knoflook.
+Verhit de rest van de olie en bak op een hoog vuur de aubergine, courgette en paprika.
+Voeg daarna voeg de ui en knoflook toe en laat kort meestoven.
 
-Leg de zeeduivel in een ovenschotel en lepel er de groenten langs.<br />
-Voeg het kruidentuiltje toe en overgiet met het geheel met de tomatensaus.<br />
-Kruid met zout en peper.<br />
-Zet gedurende 15 à 20 minuten in een oven van 180°C.<br />
+Leg de zeeduivel in een ovenschotel en lepel er de groenten langs.
+Voeg het kruidentuiltje toe en overgiet met het geheel met de tomatensaus.
+Kruid met zout en peper.
+Zet gedurende 15 à 20 minuten in een oven van 180°C.
 
 
 
@@ -48,19 +49,19 @@ Vul de courgettes met het quinoamengsel en strooi er de tijm en gemalen kaas ove
 Verhit eventueel de gril van de oven om de kaas te kleuren/grillen.
 
 - 2 courgettes
-<br />- ½ l water
-<br />- 2 tomaten
-<br />- 2 middelgrote uien
-<br />- 1 teentje knoflook
-<br />- 2 el olijfolie + extra
-<br />- 100 g quinoa
-<br />- 200 ml water
-<br />- snuifje chilipoeder
-<br />- 1 blaadje laurier
-<br />- 1 el oregano
-<br />- 1/2 th zout
-<br />- 2 el tijm
-<br />- Brugge Belegen
-<br />- peper
+- ½ l water
+- 2 tomaten
+- 2 middelgrote uien
+- 1 teentje knoflook
+- 2 el olijfolie + extra
+- 100 g quinoa
+- 200 ml water
+- snuifje chilipoeder
+- 1 blaadje laurier
+- 1 el oregano
+- 1/2 th zout
+- 2 el tijm
+- Brugge Belegen
+- peper
 
 Gevulde Courgette met quinoa en Brugge Belegen
