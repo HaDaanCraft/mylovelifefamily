@@ -29,7 +29,7 @@ $recipe = DB::query('SELECT * FROM recipes WHERE id=:id', array('id'=>$_GET['id'
     <div class="recipes">
       <div class="recipesWrapper">
         <a href="recipes.php"><img src="./assets/pictures/back.png" alt="Terug" id="back"></a>
-        <h3><?php echo $recipe['name'];?></h3>
+        <h3 id="viewName"><?php echo $recipe['name'];?></h3>
         <div class="recipeDiv">
           <div class="photo">
             <img src="<?php echo $recipe['photo']; ?>" />
