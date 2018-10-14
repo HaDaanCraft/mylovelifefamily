@@ -65,9 +65,9 @@ if (isset($_POST['addrecipe'])) {
             <h5>Naam Gerecht:</h5>
             <input type="text" name="name" value="" placeholder="Naam gerecht" class="input" id="name">
             <h5>Ingrediënten:</h5>
-            <textarea name="ingredients" placeholder="Ingrediënten" rows="30" cols="70" class="input"></textarea>
+            <textarea name="ingredients" placeholder="Ingrediënten" rows="30" cols="70" class="input" style="z-index: 0;"></textarea>
             <h5>Recept</h5>
-            <textarea name="recipe" placeholder="Recept" rows="30" cols="80" class="input"></textarea>
+            <textarea name="recipe" placeholder="Recept" rows="30" cols="80" class="input" style="z-index: 0;"></textarea>
             <h5>Foto</h5>
             <input type="file" name="photo" class="input">
             <input type="submit" value="Voeg toe" name="addrecipe" id="submit">
