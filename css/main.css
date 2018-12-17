@@ -374,7 +374,7 @@ a {
 
   .recipeDiv {
     display: grid;
-    grid-template-rows: 50% auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
                       'photo ingredients'
                       'recipe recipe';
@@ -411,6 +411,12 @@ a {
   .recipeDiv .preparation {
     grid-area: recipe;
     font-size: 20px;
+  }
+
+  .edit {
+    margin-top: 15px;
+    height: 30px;
+    margin-bottom: 30px;
   }
 
 
@@ -768,7 +774,7 @@ a {
 
   .recipeDiv {
     display: grid;
-    grid-template-rows: 50% auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
                       'photo ingredients'
                       'recipe recipe';
@@ -805,6 +811,12 @@ a {
   .recipeDiv .preparation {
     grid-area: recipe;
     font-size: 20px;
+  }
+
+  .edit {
+    margin-top: 15px;
+    height: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1163,7 +1175,7 @@ a {
 
   .recipeDiv {
     display: grid;
-    grid-template-rows: 50% auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
                       'photo ingredients'
                       'recipe recipe';
@@ -1200,6 +1212,12 @@ a {
   .recipeDiv .preparation {
     grid-area: recipe;
     font-size: 17px;
+  }
+
+  .edit {
+    margin-top: 15px;
+    height: 30px;
+    margin-bottom: 30px;
   }
 
 }
@@ -1562,13 +1580,14 @@ a {
   }
 
   .recipesWrapper .form #name {
-    width: 500px;
+    width: 95%;
     height: 35px;
   }
 
   .recipesWrapper .form .input {
     margin-bottom: 25px;
     border: 0.5px solid black;
+    width: 95%;
   }
 
   .recipesWrapper .form #submit {
@@ -1614,7 +1633,7 @@ a {
 
   .recipeDiv {
     display: grid;
-    grid-template-rows: 50% auto;
+    grid-template-rows: auto auto;
     grid-template-columns: 1fr;
   }
 
@@ -1642,6 +1661,12 @@ a {
 
   .recipeDiv .preparation {
     font-size: 15px;
+  }
+
+  .edit {
+    margin-top: 15px;
+    height: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -2040,7 +2065,7 @@ a {
 
   .recipeDiv {
     display: grid;
-    grid-template-rows: 50% auto;
+    grid-template-rows: auto auto;
     grid-template-columns: 1fr;
   }
 
@@ -2068,5 +2093,11 @@ a {
 
   .recipeDiv .preparation {
     font-size: 15px;
+  }
+
+  .edit {
+    margin-top: 15px;
+    height: 30px;
+    margin-bottom: 30px;
   }
 }

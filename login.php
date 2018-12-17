@@ -8,7 +8,7 @@ if (isset($_POST['login'])) {
     $userType = DB::query('SELECT userType FROM users WHERE pin=:pin', array(':pin'=>$pin))[0]['userType'];
     echo '<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>';
     echo '<script type="text/javascript">',
-     'Cookies.set("loggedInUserType", "1", { expires: 1 });',
+     'Cookies.set("loggedInUserType", "'.$userType.'", { expires: 1 });',
      '</script>';
   }
 }

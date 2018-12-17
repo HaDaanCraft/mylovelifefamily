@@ -34,6 +34,18 @@ if (isset($_POST['addrecipe'])) {
 
 }
 
+if (isset($_GET['nm'])) {
+  $nm = $_GET['nm'];
+  $ingr = $_GET['ingr'];
+  $rec = $_GET['rec'];
+  $phot = $_GET['phot'];
+} else {
+  $nm = '';
+  $ingr = '';
+  $rec = '';
+  $phot = '';
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -63,7 +75,7 @@ if (isset($_POST['addrecipe'])) {
         <div class="form">
           <form enctype="multipart/form-data" action="addrecipe.php" method="POST">
             <h5>Naam Gerecht:</h5>
-            <input type="text" name="name" value="" placeholder="Naam gerecht" class="input" id="name">
+            <input type="text" name="name" placeholder="Naam gerecht" class="input" id="name">
             <h5>Ingrediënten:</h5>
             <textarea name="ingredients" placeholder="Ingrediënten" rows="30" cols="70" class="input" style="z-index: 0;"></textarea>
             <h5>Recept</h5>

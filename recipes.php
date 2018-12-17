@@ -27,7 +27,7 @@ $recipes = DB::query('SELECT * FROM recipes');
     <div class="recipes">
       <div class="recipesWrapper">
         <h3>Gerechten</h3>
-        <h4><a href="addrecipe.php">Voeg gerecht toe!</a></h4>
+        <?php if($_COOKIE['loggedInUserType'] == 0 || $_COOKIE['loggedInUserType'] == 2){echo '<h4><a href="addrecipe.php">Voeg gerecht toe!</a></h4>';}?>
         <div class="recipesDiv">
           <?php
           foreach ($recipes as $recipe) {
