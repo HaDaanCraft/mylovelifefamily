@@ -95,6 +95,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 10;
   }
 
   .heads {
@@ -500,6 +501,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 10;
   }
 
   .heads {
@@ -902,6 +904,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 10;
   }
 
   .heads {
@@ -1350,6 +1353,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 10;
   }
 
   .heads {
@@ -1803,6 +1807,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 10;
   }
 
   .heads {
