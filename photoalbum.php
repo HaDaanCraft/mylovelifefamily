@@ -21,10 +21,8 @@
     </div>
 
     <div data-nanogallery2='{
-        "userID": "108666537171504081916",
-        "kind": "google2",
-        "google2URL": "http://myhappyfamily.ddns.net:8080/mylovelifefamily/nanogp2/nanogp2.php",
-        "whiteList": "MyLoveLifeFamily",
+        "kind": "nano_photos_provider2",
+        "dataProvider": "http://myhappyfamily.ddns.net:8080/mylovelifefamily/nano_photos_provider2/nano_photos_provider2.php.php",
         "thumbnailWidth": "200",
         "thumbnailAlignment": "center"
       }'>
