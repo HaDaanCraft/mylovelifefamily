@@ -24,7 +24,7 @@
 
   <div id="my_nanogallery" data-nanogallery2='{
         "kind": "nano_photos_provider2",
-        "dataProvider": "http://myhappyfamily.ddns.net:8080/mylovelifefamily/nano_photos_provider2\nano_photos_provider2.php",
+        "dataProvider": "http://myhappyfamily.ddns.net:8080/mylovelifefamily/nano_photos_provider2/nano_photos_provider2.php",
         "thumbnailWidth": "200",
         "thumbnailAlignment": "center"
       }'>
