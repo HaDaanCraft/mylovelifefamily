@@ -26,6 +26,8 @@
         <div class="timelineWrapper">
             <h3><a href="#timeline">Tijdlijn</a></h3>
             <div class="timelinegrid">
+                <img src="./assets/pictures/verjaardag-tuur-1-jaar-2019.jpg">
+                <p>Verjaardag Tuur - 1 Jaar - 2019</p>
                 <p>Nieuwpoort - 2018</p>
                 <img src="./assets/pictures/nieuwpoort.jpg">
                 <img src="./assets/pictures/family_pic.jpg">
@@ -36,12 +38,10 @@
                 <p>Verjaardag Marie - 2017</p>
                 <p>Verjaardag Eline - 2016</p>
                 <img src="./assets/pictures/verjaardag-eline-2016.jpg">
-                <img src="./assets/pictures/verjaardag-tuur-1-jaar-2019.jpg">
-                <p>Verjaardag Tuur - 1 Jaar - 2019</p>
             </div>
         </div>
     </div>
 
 </body>
 
-</html> 
+</html>
