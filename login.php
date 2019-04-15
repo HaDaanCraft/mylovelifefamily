@@ -39,7 +39,7 @@ if (isset($_POST['login'])) {
       <div class="loginWrapper">
         <h3>Login</h3>
         <form action="login.php" method="post">
-          <input type="password" name="pin" placeholder="Pin..." id="pin"> <p />
+          <input type="password" name="pin" pattern="[0-9]{4}" placeholder="Pin..." id="pin"> <p />
           <input type="submit" name="login" value="Login" id="button">
         </form>
       </div>
