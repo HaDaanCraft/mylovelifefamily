@@ -26,9 +26,7 @@
         "userID": "108666537171504081916",
         "kind": "google2",
         "google2URL": "http://myhappyfamily.ddns.net:8080/mylovelifefamily/nanogp2/nanogp2.php",
-        "whiteList": "MyLoveLifeFamily",
-        "thumbnailWidth": "200",
-        "thumbnailAlignment": "center"
+        "thumbnailWidth": "200"
       }'>
 
   </div>
