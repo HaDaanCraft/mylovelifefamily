@@ -10,7 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="js/main.js"></script>
-  <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+  <link href="https://raw.githubusercontent.com/nanostudio-org/nanogallery2/master/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="https://raw.githubusercontent.com/nanostudio-org/nanogallery2/master/dist/jquery.nanogallery2.min.js"></script>
 </head>
 
