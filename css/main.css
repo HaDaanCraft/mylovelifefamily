@@ -276,6 +276,11 @@ a {
     background-color: Transparent;
   }
 
+  .loginWrapper #pin {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+  }
+
   /* Recipes */
 
   .recipes {
@@ -676,6 +681,11 @@ a {
     background-color: Transparent;
   }
 
+  .loginWrapper #pin {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+  }
+
   /* Recipes */
 
   .recipes {
@@ -1071,6 +1081,11 @@ a {
   .loginWrapper #button {
     margin-top: 10px;
     background-color: Transparent;
+  }
+
+  .loginWrapper #pin {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
   }
 
   /* Recipes */
@@ -1530,6 +1545,11 @@ a {
     background-color: Transparent;
   }
 
+  .loginWrapper #pin {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+  }
+
   /* Recipes */
 
   .recipes {
@@ -1963,6 +1983,11 @@ a {
   .loginWrapper #button {
     margin-top: 10px;
     background-color: Transparent;
+  }
+
+  .loginWrapper #pin {
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
   }
 
   /* Recipes */

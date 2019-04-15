@@ -10,6 +10,7 @@ $(document).ready(() => {
     $(location).attr('href', localStorage.link);
   }
 
+
   // Navigation Bar
 
   $('#header').load('files/header.php');
