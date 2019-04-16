@@ -178,6 +178,27 @@ a {
     height: 700px;
   }
 
+  /* Photo Album */
+
+  .menu {
+    width: 100%;
+  }
+
+  .menuWrapper {
+    width: 85%;
+    padding-top: 25px;
+    padding-bottom: 0;
+    margin: auto;
+  }
+
+  .menuWrapper h3 {
+    font-size: 30px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
   /* Lists */
 
   .list {

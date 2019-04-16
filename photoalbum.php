@@ -1,3 +1,24 @@
+<!-- <?php
+
+      require('classes/imageRotate/imageRotate.php');
+
+      $rotate = new imageRotate();
+      $rotate->fixOrientation("File");
+
+
+
+      ?> -->
+
+<?php
+if (isset($_GET['nameNewFolder'])) {
+  $newfolder = $_GET['nameNewFolder'];
+  if (!file_exists('nano_photos_provider2/nano_photos_content/' . $newfolder)) {
+    mkdir('nano_photos_provider2/nano_photos_content/' . $newfolder, 0777, true);
+  }
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -20,6 +41,12 @@
   </div>
 
   <div class="nav" id="nav">
+  </div>
+
+  <div class="menu">
+    <div class="menuWrapper">
+      <h3 id="albumMenuNewAlbum">Nieuw Album</h3>
+    </div>
   </div>
 
   <div id="my_nanogallery" data-nanogallery2='{

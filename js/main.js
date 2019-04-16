@@ -97,7 +97,15 @@ $(document).ready(() => {
   });
 
 
-  //End File
+  // Photo Album
+  
+  $("#albumMenuNewAlbum").click(function() {
+    var name = prompt("Naam voor het nieuwe album?");
+    $(location).attr('href', "photoalbum.php?nameNewFolder="+name);
+  });
+
+
+  // End File
 }, 1000);
 
 });
