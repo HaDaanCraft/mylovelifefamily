@@ -101,8 +101,28 @@ $(document).ready(() => {
   
   $("#albumMenuNewAlbum").click(function() {
     var name = prompt("Naam voor het nieuwe album?");
-    $(location).attr('href', "photoalbum.php?nameNewFolder="+name);
+    var url = window.location.href;
+    var sendurl = url.replace("#", "µ")
+    var regExp = new RegExp("(?<=my_nanogallery\/).*($)");
+    if (regExp.test(url)) {
+      album = regExp.exec(url)[0];
+    } else {
+      album = "";
+    }
+    $(location).attr('href', "photoalbum.php?nameNewFolder="+name+"&album="+album+"&lastPage="+sendurl);
   });
+
+    $("#albumMenuUploadFoto").click(function () {
+      var url = window.location.href;
+      var sendurl = url.replace("#", "µ")
+      var regExp = new RegExp("(?<=my_nanogallery\/).*($)");
+      if (regExp.test(url)) {
+        album = regExp.exec(url)[0];
+      } else {
+        album = "";
+      }
+      $(location).attr('href', "uploadfoto.php?album="+album+"&lastpage="+sendurl);
+    });
 
 
   // End File
