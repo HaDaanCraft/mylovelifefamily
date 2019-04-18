@@ -178,6 +178,86 @@ a {
     height: 700px;
   }
 
+  /* Photo Album */
+
+  .menu {
+    width: 100%;
+  }
+
+  .menuWrapper {
+    width: 85%;
+    padding-top: 25px;
+    padding-bottom: 0;
+    margin: auto;
+  }
+
+  .menuWrapper h3 {
+    font-size: 30px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .photos {
+    width: 100%;
+  }
+
+  .photosWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .photosWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .photosWrapper #back {
+    height: 50px;
+  }
+
+  .photosWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .photosWrapper .form h5 {
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  .photosWrapper .form .input {
+    margin-bottom: 25px;
+    border: 0.5px solid black;
+  }
+
+  .photosWrapper .form #submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .photosWrapper .form #name {
+    width: 500px;
+    height: 35px;
+  }
+
   /* Lists */
 
   .list {
