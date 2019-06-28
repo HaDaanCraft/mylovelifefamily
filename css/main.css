@@ -61,7 +61,7 @@ a {
     display: none;
   }
 
-  #homepage, #calendar, #photoalbum, #lists, #recipes {
+  #homepage, #calendar, #photoalbum, #lists, #recipes, #menuvdweek {
     color: #000;
     font-weight: bold;
     font-size: 16px;
@@ -505,6 +505,111 @@ a {
     margin-bottom: 30px;
   }
 
+  /* Menu Van De Week */
+
+  .menuw {
+    width: 100%;
+  }
+
+  .menuwWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .menuwWrapper h3 {
+    font-size: 40px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .menuwDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    border: #000 2px solid;
+    padding: 5px;
+  }
+
+  .menuwDiv .day {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .menuwDiv hr {
+    border: #4A4A4A 1px solid;
+  }
+
+  .menuwWrapper h4 {
+    font-size: 25px;
+    color: blue;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .menuwWrapper #back {
+    height: 50px;
+  }
+
+  .menuwWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .menuwWrapper .form h5 {
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  .menuwWrapper .form #name {
+    width: 500px;
+    height: 35px;
+  }
+
+  .menuwWrapper .form .input {
+    margin-bottom: 25px;
+    border: 0.5px solid black;
+  }
+
+  .menuwWrapper .form #submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .menuwWrapper .form #delete {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 21.3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 
 }
 
@@ -547,7 +652,7 @@ a {
     display: none;
   }
 
-  #homepage, #calendar, #photoalbum, #lists, #recipes {
+  #homepage, #calendar, #photoalbum, #lists, #recipes, #menuvdweek {
     color: #000;
     font-weight: bold;
     font-size: 16px;
@@ -910,6 +1015,111 @@ a {
     height: 30px;
     margin-bottom: 30px;
   }
+
+   /* Menu Van De Week */
+
+   .menuw {
+     width: 100%;
+   }
+
+   .menuwWrapper {
+     width: 85%;
+     padding-top: 25px;
+     margin: auto;
+     padding-bottom: 0;
+   }
+
+   .menuwWrapper h3 {
+     font-size: 40px;
+     color: #4A4A4A;
+     letter-spacing: 2px;
+     font-weight: bold;
+     display: inline;
+   }
+
+   .menuwDiv {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-auto-flow: row;
+     grid-auto-rows: auto;
+     border: #000 2px solid;
+     padding: 5px;
+   }
+
+   .menuwDiv .day {
+     display: grid;
+     grid-template-columns: 1fr 5fr;
+     grid-template-rows: auto;
+     grid-auto-flow: row;
+     grid-auto-rows: auto;
+     align-items: center;
+     padding: 20px;
+   }
+
+   .menuwDiv hr {
+     border: #4A4A4A 1px solid;
+   }
+
+   .menuwWrapper h4 {
+     font-size: 25px;
+     color: blue;
+     letter-spacing: 2px;
+     font-weight: bold;
+     text-decoration: underline;
+   }
+
+   .menuwWrapper #back {
+     height: 50px;
+   }
+
+   .menuwWrapper a {
+     height: 50px;
+     margin-right: 50px;
+   }
+
+   .menuwWrapper .form h5 {
+     font-size: 25px;
+     color: black;
+     letter-spacing: 2px;
+     margin-bottom: 5px;
+   }
+
+   .menuwWrapper .form #name {
+     width: 500px;
+     height: 35px;
+   }
+
+   .menuwWrapper .form .input {
+     margin-bottom: 25px;
+     border: 0.5px solid black;
+   }
+
+   .menuwWrapper .form #submit {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
+
+   .menuwWrapper .form #delete {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 10px 21.3px;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     font-size: 12px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
 }
 
 /* Small iPads */
@@ -946,16 +1156,18 @@ a {
     float: right;
   }
 
-  .right .menu {
-    display: none;
-  }
-
-  #homepage, #calendar, #photoalbum, #lists, #recipes {
+  #homepage, #calendar, #photoalbum, #lists, #recipes, #menuvdweek {
     color: #000;
     font-weight: bold;
     font-size: 16px;
     margin-right: 35px;
     letter-spacing: 0.6px;
+    display: none;
+  }
+
+  .right .menu {
+    display: block;
+    height: 25px;
   }
 
   .headerWrapper {
@@ -970,8 +1182,46 @@ a {
     letter-spacing: 3.33px;
   }
 
+  /* Responsive Nav */
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    float: right;
+    margin: 1em 1em 0 0;
+  }
+
+  .closeIcon {
+    height: 20px;
+  }
+
   .navResponsive {
-    display: none;
+    width: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+    transition: 0.5s;
+    display: block;
+  }
+
+  .navResponsive a {
+    clear: right;
+    color: #4A4A4A;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    padding: 1em 0;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+
+  .navResponsive a:not(:first-child):hover {
+    color: #B2B2B2;
   }
 
   /* Sticky nav bar */
@@ -1318,6 +1568,111 @@ a {
     margin-bottom: 30px;
   }
 
+   /* Menu Van De Week */
+
+   .menuw {
+     width: 100%;
+   }
+
+   .menuwWrapper {
+     width: 85%;
+     padding-top: 25px;
+     margin: auto;
+     padding-bottom: 0;
+   }
+
+   .menuwWrapper h3 {
+     font-size: 40px;
+     color: #4A4A4A;
+     letter-spacing: 2px;
+     font-weight: bold;
+     display: inline;
+   }
+
+   .menuwDiv {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-auto-flow: row;
+     grid-auto-rows: auto;
+     border: #000 2px solid;
+     padding: 5px;
+   }
+
+   .menuwDiv .day {
+     display: grid;
+     grid-template-columns: 1fr 5fr;
+     grid-template-rows: auto;
+     grid-auto-flow: row;
+     grid-auto-rows: auto;
+     align-items: center;
+     padding: 20px;
+   }
+
+   .menuwDiv hr {
+     border: #4A4A4A 1px solid;
+   }
+
+   .menuwWrapper h4 {
+     font-size: 25px;
+     color: blue;
+     letter-spacing: 2px;
+     font-weight: bold;
+     text-decoration: underline;
+   }
+
+   .menuwWrapper #back {
+     height: 50px;
+   }
+
+   .menuwWrapper a {
+     height: 50px;
+     margin-right: 50px;
+   }
+
+   .menuwWrapper .form h5 {
+     font-size: 25px;
+     color: black;
+     letter-spacing: 2px;
+     margin-bottom: 5px;
+   }
+
+   .menuwWrapper .form #name {
+     width: 500px;
+     height: 35px;
+   }
+
+   .menuwWrapper .form .input {
+     margin-bottom: 25px;
+     border: 0.5px solid black;
+   }
+
+   .menuwWrapper .form #submit {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
+
+   .menuwWrapper .form #delete {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 10px 21.3px;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     font-size: 12px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
+
 }
 
 /* Phone Portrait */
@@ -1355,7 +1710,7 @@ a {
     float: right;
   }
 
-  #homepage, #calendar, #photoalbum, #lists, #recipes {
+  #homepage, #calendar, #photoalbum, #lists, #recipes, #menuvdweek {
     color: #000;
     font-weight: bold;
     font-size: 16px;
@@ -1648,7 +2003,7 @@ a {
   }
 
   .recipesWrapper h3 {
-    font-size: 40px;
+    font-size: 30px;
     color: #4A4A4A;
     letter-spacing: 2px;
     font-weight: bold;
@@ -1772,6 +2127,111 @@ a {
     height: 30px;
     margin-bottom: 30px;
   }
+
+   /* Menu Van De Week */
+
+   .menuw {
+     width: 100%;
+   }
+
+   .menuwWrapper {
+     width: 85%;
+     padding-top: 25px;
+     margin: auto;
+     padding-bottom: 0;
+   }
+
+   .menuwWrapper h3 {
+     font-size: 30px;
+     color: #4A4A4A;
+     letter-spacing: 2px;
+     font-weight: bold;
+     display: inline;
+   }
+
+   .menuwDiv {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-auto-flow: row;
+     grid-auto-rows: auto;
+     border: #000 2px solid;
+     padding: 5px;
+   }
+
+   .menuwDiv .day {
+     display: grid;
+     grid-template-columns: 1fr 5fr;
+     grid-template-rows: auto;
+     grid-auto-flow: row;
+     grid-auto-rows: auto;
+     align-items: center;
+     padding: 20px;
+   }
+
+   .menuwDiv hr {
+     border: #4A4A4A 1px solid;
+   }
+
+   .menuwWrapper h4 {
+     font-size: 25px;
+     color: blue;
+     letter-spacing: 2px;
+     font-weight: bold;
+     text-decoration: underline;
+   }
+
+   .menuwWrapper #back {
+     height: 50px;
+   }
+
+   .menuwWrapper a {
+     height: 50px;
+     margin-right: 50px;
+   }
+
+   .menuwWrapper .form h5 {
+     font-size: 25px;
+     color: black;
+     letter-spacing: 2px;
+     margin-bottom: 5px;
+   }
+
+   .menuwWrapper .form #name {
+     width: 95%;
+     height: 35px;
+   }
+
+   .menuwWrapper .form .input {
+     margin-bottom: 25px;
+     border: 0.5px solid black;
+   }
+
+   .menuwWrapper .form #submit {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
+
+   .menuwWrapper .form #delete {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 7px 14.9px;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     font-size: 12px;
+     margin: 4px 2px;
+     cursor: pointer;
+   }
 }
 
 /* Phone Landscape */
@@ -1809,7 +2269,7 @@ a {
     float: right;
   }
 
-  #homepage, #calendar, #photoalbum, #lists, #recipes {
+  #homepage, #calendar, #photoalbum, #lists, #recipes, #menuvdweek {
     color: #000;
     font-weight: bold;
     font-size: 16px;
@@ -2089,7 +2549,7 @@ a {
   }
 
   .recipesWrapper h3 {
-    font-size: 40px;
+    font-size: 30px;
     color: #4A4A4A;
     letter-spacing: 2px;
     font-weight: bold;
@@ -2211,5 +2671,110 @@ a {
     margin-top: 15px;
     height: 30px;
     margin-bottom: 30px;
+  }
+
+  /* Menu Van De Week */
+
+  .menuw {
+    width: 100%;
+  }
+
+  .menuwWrapper {
+    width: 85%;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .menuwWrapper h3 {
+    font-size: 30px;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .menuwDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    border: #000 2px solid;
+    padding: 5px;
+  }
+
+  .menuwDiv .day {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .menuwDiv hr {
+    border: #4A4A4A 1px solid;
+  }
+
+  .menuwWrapper h4 {
+    font-size: 25px;
+    color: blue;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .menuwWrapper #back {
+    height: 50px;
+  }
+
+  .menuwWrapper a {
+    height: 50px;
+    margin-right: 50px;
+  }
+
+  .menuwWrapper .form h5 {
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  .menuwWrapper .form #name {
+    width: 95%;
+    height: 35px;
+  }
+
+  .menuwWrapper .form .input {
+    margin-bottom: 25px;
+    border: 0.5px solid black;
+  }
+
+  .menuwWrapper .form #submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .menuwWrapper .form #delete {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 14.9px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 }

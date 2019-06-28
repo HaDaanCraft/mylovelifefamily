@@ -87,12 +87,14 @@ $(document).ready(() => {
           $('.list').addClass('pageMargin');
           $('.calendar').addClass('pageMargin');
           $('.recipes').addClass('pageMargin');
+          $('.menuw').addClass('pageMargin');
       } else {
           $('.nav').removeClass('sticky');
           $('.headerWrapper h1').removeClass('heads');
           $('.list').removeClass('pageMargin');
           $('.calendar').removeClass('pageMargin');
           $('.recipes').removeClass('pageMargin');
+          $('.menuw').removeClass('pageMargin');
       }
   });
 
