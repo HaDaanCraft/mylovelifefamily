@@ -50,11 +50,13 @@ if (isset($_POST['delete'])) {
                                 <p class="datep">' . Translate::translateDate(date($format, $recipe['date'])) . '</p>
                             </div>
                             <div class="gerecht">
-                                <p class="gerechtp">' . $recipe['name'] . '<p />
-                                <form class="form" action="menuvdweek.php?gerechtdate='.$recipe['date'].'" method="POST">
+                                <p class="gerechtp">' . $recipe['name'] . '<p />';
+                                if ( $_COOKIE['loggedInUserType'] == 0 || $_COOKIE['loggedInUserType'] == 2){
+                                echo '<form class="form" action="menuvdweek.php?gerechtdate='.$recipe['date'].'" method="POST">
                                     <input type="submit" id="delete" name="delete" value="Delete">
-                                </form>
-                            </div>
+                                </form>';
+                                }
+                            echo '</div>
                         </div>
                         <hr />';
                 }
