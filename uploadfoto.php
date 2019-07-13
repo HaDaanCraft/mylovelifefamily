@@ -1,5 +1,8 @@
 <?php
 
+include('classes/imageRotate/imageRotate.php');
+$imageRotate = new imageRotate;
+
 function reArrayFiles($file_post)
 {
     $file_ary = array();
@@ -42,6 +45,9 @@ if (isset($_GET['lastpage'])) {
             $targetfile = $targetdir . $name . "." . $filetype;
 
             move_uploaded_file($photo['tmp_name'], $targetfile);
+
+            $imageRotate->fixOrientation($targetfile);
+
         }
 
         echo "<script>
